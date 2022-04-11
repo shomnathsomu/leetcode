@@ -1,3 +1,11 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+// Negative marking approach
+
+// Time Complexity: O(n)
+// Space Complexity: O(1)
+
 vector<int> nums;
 
 class Solution{
