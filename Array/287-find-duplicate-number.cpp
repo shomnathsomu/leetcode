@@ -31,8 +31,9 @@ public:
 
 int main(int argc, const char* argv[]) {
 
-    DI(n);
-    int num;
+    int n, num;
+    scanf("%d", &n);
+
     for(int i=0; i<n; i++) {
         scanf("%d", &num);
         nums.push_back(num);
